@@ -33,9 +33,15 @@ h1{
 
   
   .btn:hover,.del:hover , .btn_1:hover{
-    background-color:white;
+    background-color:rgb(201, 201, 201);
     color: black;
-    border: 2px solid #000000;
+    
+  }
+  .del{
+    margin-left: -88%;
+    margin-top: 0%;
+    background-color: rgba(190, 10, 10, 0.822);
+    
   }
 
   #content{
@@ -44,4 +50,23 @@ h1{
   p{
     padding: 2%;
     text-align: left;
+  }
+  @media screen and (max-width: 1024px){
+    .del{
+      margin-left: -85%;
+      
+    }
+  }
+  @media screen and (max-width: 900px){
+    .del{
+      margin-left: -80%;
+      
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    .del{
+      margin-left: -75%;
+      
+    }
   }
